@@ -13,5 +13,10 @@ namespace TomLonghurst.Extensions.Http
 
             return (int) httpStatusCode.Value;
         }
+        
+        public static int? GetIntValue(this HttpStatusCode httpStatusCode)
+        {
+            return (int) httpStatusCode;
+        }
     }
 }

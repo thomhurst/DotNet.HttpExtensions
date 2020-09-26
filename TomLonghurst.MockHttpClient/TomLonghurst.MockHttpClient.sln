@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.MockHttpClient", "TomLonghurst.MockHttpClient\TomLonghurst.MockHttpClient.csproj", "{C8859D46-73D1-4E1F-BF75-B73F571AFF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.MockHttpClient.Example", "TomLonghurst.MockHttpClient.Example\TomLonghurst.MockHttpClient.Example.csproj", "{57BC40FC-1279-4F2C-99E0-6BC44643E347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TomLonghurst.MockHttpClient.Example.UnitTests", "TomLonghurst.MockHttpClient.Example.UnitTests\TomLonghurst.MockHttpClient.Example.UnitTests.csproj", "{0EA6A3FC-4D0A-4FC7-890E-6126331BFDA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8859D46-73D1-4E1F-BF75-B73F571AFF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8859D46-73D1-4E1F-BF75-B73F571AFF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8859D46-73D1-4E1F-BF75-B73F571AFF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8859D46-73D1-4E1F-BF75-B73F571AFF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BC40FC-1279-4F2C-99E0-6BC44643E347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BC40FC-1279-4F2C-99E0-6BC44643E347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BC40FC-1279-4F2C-99E0-6BC44643E347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BC40FC-1279-4F2C-99E0-6BC44643E347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA6A3FC-4D0A-4FC7-890E-6126331BFDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA6A3FC-4D0A-4FC7-890E-6126331BFDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA6A3FC-4D0A-4FC7-890E-6126331BFDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA6A3FC-4D0A-4FC7-890E-6126331BFDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81fc7b0c-b055-4481-8be8-882179d570c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.Extensions.Http/HttpRequestMessageExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.Extensions.Http/HttpStatusCodeExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TomLonghurst.Extensions.Http/JsonContent.cs" afterDir="false" />
+    <list default="true" id="81fc7b0c-b055-4481-8be8-882179d570c3" name="Default Changelist" comment="HttpStatusCode.GetIntValue">
+      <change afterPath="$PROJECT_DIR$/../TomLonghurst.MockHttpClient/TomLonghurst.MockHttpClient.Example/IHttpClientFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TomLonghurst.MockHttpClient/TomLonghurst.MockHttpClient.Example/MyService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TomLonghurst.MockHttpClient/TomLonghurst.MockHttpClient.UnitTests/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TomLonghurst.MockHttpClient/TomLonghurst.MockHttpClient.UnitTests/TomLonghurst.MockHttpClient.UnitTests.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TomLonghurst.MockHttpClient/TomLonghurst.MockHttpClient/NoMockResponseSetupException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Extensions.Http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TomLonghurst.Extensions.Http/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +35,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/GitKraken/DotNet.HttpExtensions/TomLonghurst.Extensions.Http/TomLonghurst.Extensions.Http/HttpStatusCodeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GitKraken/DotNet.HttpExtensions/TomLonghurst.Extensions.Http/TomLonghurst.Extensions.Http/HttpRequestMessageExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GitKraken/DotNet.HttpExtensions/TomLonghurst.Extensions.Http/TomLonghurst.Extensions.Http/JsonContent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GitKraken/DotNet.HttpExtensions/TomLonghurst.Extensions.Http/TomLonghurst.Extensions.Http/JsonContent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/GitKraken/DotNet.HttpExtensions/TomLonghurst.Extensions.Http/TomLonghurst.Extensions.Http/HttpStatusCodeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/Class1.cs" />
-        <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/HttpStatusCodeExtensions.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/UriExtensions.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/HttpRequestMessageExtensions.cs" />
         <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/JsonContent.cs" />
+        <option value="$PROJECT_DIR$/TomLonghurst.Extensions.Http/HttpStatusCodeExtensions.cs" />
       </list>
     </option>
   </component>
@@ -73,8 +83,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601117657977</updated>
-      <workItem from="1601117680804" duration="1514000" />
+      <workItem from="1601117680804" duration="2403000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial extensions added">
+      <created>1601120043683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601120043683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HttpStatusCode.GetIntValue">
+      <created>1601120170832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601120170832</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HttpStatusCode.GetIntValue">
+      <created>1601120204022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601120204022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +127,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial extensions added" />
+    <MESSAGE value="HttpStatusCode.GetIntValue" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpStatusCode.GetIntValue" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="933" y="326" key="RollbackChangesDialog" timestamp="1601120218042">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="933" y="326" key="RollbackChangesDialog/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601120218042" />
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601120205845">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="873" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400/3840.0.1920.1040@0.0.2560.1400" timestamp="1601120205845" />
   </component>
 </project>
